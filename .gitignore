@@ -1,0 +1,85 @@
+#================================
+# Top-level '.gitignore'
+#================================
+# TOC
+#================================
+# 1 - Generic Files
+# 2 - IDE files
+# 3 - OS files
+# 4 - Files
+# 5 - Directories :)
+#================================
+# Maintainer: Grant Abernathy
+#
+# Submit PR if changing.
+#================================
+
+#================================
+# 1 - Generic Files
+#================================
+*.swp
+
+#================================
+# 2 - IDE files
+#================================
+
+# VSCode stuff
+*.vscode
+*.code-workspace
+# JetBrains stuff
+*.idea
+# Sublime stuff
+*.sublime-project
+*.sublime-workspace
+*.vs
+*.vcxproj
+# Don't ignore all .user files, just .vcxproj.user
+# files in-case something is important that uses
+# .user in the near future, who knows?
+*.vcxproj.user
+# .suo is older, like VS 2010-2012-2025?
+# but, we still want to ignore it :-)
+*.suo
+
+#================================
+# 3 - OS files
+#
+# Some of these are very rare
+# cases, but, they do exist.
+#
+# :-(
+#================================
+*.DS_Store
+*[Tt]humbs.db
+*[Dd]esktop.ini
+*.Spotlight-V100
+*$RECYCLE.BIN/
+*System Volume Information/
+
+#================================
+# 4 - Files
+#================================
+
+# Incase you compile w/o a target
+# name lmao
+*a.out
+
+*.pyc
+*.pyo
+*.pyd
+
+#================================
+# 5 - Directories :)
+#================================
+
+# Ignore Unix backup files
+*~
+
+# Ignore every instance of pycache
+*__pycache__/
+
+# Only ignore in root!
+/Bin/
+/Intermediate/
+/Lib/
+/Saved/

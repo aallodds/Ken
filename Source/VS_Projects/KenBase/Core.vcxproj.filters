@@ -26,6 +26,15 @@
     <ClCompile Include="..\..\Ken\Core\Utility\Exception.cc">
       <Filter>Utility</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Logging\Logging.cc">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Logging\LogCategory.cc">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Logging\LogSink.cc">
+      <Filter>Logging</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Ken\Core\Top.hh" />
@@ -62,6 +71,15 @@
     <ClInclude Include="..\..\Ken\Core\Utility\Assert.hh">
       <Filter>Utility</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Logging\LogCategory.hh">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Logging\Logging.hh">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Logging\LogSink.hh">
+      <Filter>Logging</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Memory">
@@ -69,6 +87,9 @@
     </Filter>
     <Filter Include="Utility">
       <UniqueIdentifier>{b9362a0c-c80f-4e83-a9c5-1ad912ec2f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{caf3f2c0-d54e-4b61-9b46-46e9977189bd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -97,6 +97,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Ken\Core\Logging\LogCategory.cc" />
+    <ClCompile Include="..\..\Ken\Core\Logging\Logging.cc" />
+    <ClCompile Include="..\..\Ken\Core\Logging\LogSink.cc" />
     <ClCompile Include="..\..\Ken\Core\Memory\AllocatorCore.cc" />
     <ClCompile Include="..\..\Ken\Core\Memory\FreeListAllocator.cc" />
     <ClCompile Include="..\..\Ken\Core\Memory\HeapAllocator.cc" />
@@ -111,6 +114,9 @@
     <ClInclude Include="..\..\Ken\Core\Architecture.hh" />
     <ClInclude Include="..\..\Ken\Core\Build.hh" />
     <ClInclude Include="..\..\Ken\Core\Compiler.hh" />
+    <ClInclude Include="..\..\Ken\Core\Logging\LogCategory.hh" />
+    <ClInclude Include="..\..\Ken\Core\Logging\Logging.hh" />
+    <ClInclude Include="..\..\Ken\Core\Logging\LogSink.hh" />
     <ClInclude Include="..\..\Ken\Core\Macros.hh" />
     <ClInclude Include="..\..\Ken\Core\Memory\AllocatorCore.hh" />
     <ClInclude Include="..\..\Ken\Core\Memory\FreeListAllocator.hh" />

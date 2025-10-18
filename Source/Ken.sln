@@ -13,6 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KenBase", "KenBase", "{AC94
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KenFramework", "KenFramework", "{B002D7A7-FC30-4A81-8C79-08C3EF658C3F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "VS_Projects\KenBase\Core.vcxproj", "{4F746488-D4FE-4D2C-8D10-D6DE4239A5B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Items", "_Items", "{7C249BB3-806A-4724-8D0B-B8EA1FA845B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win64 = Debug|Win64
@@ -27,6 +37,10 @@ Global
 		{81C5F8A6-E8D7-4C01-8568-404112651302}.Debug|Win64.Build.0 = Debug|x64
 		{81C5F8A6-E8D7-4C01-8568-404112651302}.Release|Win64.ActiveCfg = Release|x64
 		{81C5F8A6-E8D7-4C01-8568-404112651302}.Release|Win64.Build.0 = Release|x64
+		{4F746488-D4FE-4D2C-8D10-D6DE4239A5B2}.Debug|Win64.ActiveCfg = Debug|x64
+		{4F746488-D4FE-4D2C-8D10-D6DE4239A5B2}.Debug|Win64.Build.0 = Debug|x64
+		{4F746488-D4FE-4D2C-8D10-D6DE4239A5B2}.Release|Win64.ActiveCfg = Release|x64
+		{4F746488-D4FE-4D2C-8D10-D6DE4239A5B2}.Release|Win64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E46368B6-DB8C-4427-BA8A-D972DCE128A3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{81C5F8A6-E8D7-4C01-8568-404112651302} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4F746488-D4FE-4D2C-8D10-D6DE4239A5B2} = {AC94423E-6EC4-4144-9543-A0C217957855}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28FB92A9-C1DC-4785-AEDB-3748A7A59B51}

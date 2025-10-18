@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateLibrary", "Templates\TemplateLibrary\TemplateLibrary.vcxproj", "{E46368B6-DB8C-4427-BA8A-D972DCE128A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateExecutable", "Templates\TemplateExecutable\TemplateExecutable.vcxproj", "{81C5F8A6-E8D7-4C01-8568-404112651302}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win64 = Debug|Win64
+		Release|Win64 = Release|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E46368B6-DB8C-4427-BA8A-D972DCE128A3}.Debug|Win64.ActiveCfg = Debug|x64
+		{E46368B6-DB8C-4427-BA8A-D972DCE128A3}.Debug|Win64.Build.0 = Debug|x64
+		{E46368B6-DB8C-4427-BA8A-D972DCE128A3}.Release|Win64.ActiveCfg = Release|x64
+		{E46368B6-DB8C-4427-BA8A-D972DCE128A3}.Release|Win64.Build.0 = Release|x64
+		{81C5F8A6-E8D7-4C01-8568-404112651302}.Debug|Win64.ActiveCfg = Debug|x64
+		{81C5F8A6-E8D7-4C01-8568-404112651302}.Debug|Win64.Build.0 = Debug|x64
+		{81C5F8A6-E8D7-4C01-8568-404112651302}.Release|Win64.ActiveCfg = Release|x64
+		{81C5F8A6-E8D7-4C01-8568-404112651302}.Release|Win64.Build.0 = Release|x64
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

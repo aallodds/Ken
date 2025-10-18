@@ -2,6 +2,24 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="TemporaryFile.cc" />
+    <ClCompile Include="..\..\Ken\Core\Memory\AllocatorCore.cc">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Memory\StackAllocator.cc">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Memory\PoolAllocator.cc">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Memory\KenPoolAllocator.cc">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Memory\HeapAllocator.cc">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Memory\FreeListAllocator.cc">
+      <Filter>Memory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Ken\Core\Top.hh" />
@@ -14,5 +32,31 @@
     <ClInclude Include="..\..\Ken\Core\Types.hh" />
     <ClInclude Include="..\..\Ken\Core\Macros.hh" />
     <ClInclude Include="..\..\Ken\Core\UtilityFunctions.hh" />
+    <ClInclude Include="..\..\Ken\Core\Memory\AllocatorCore.hh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Memory\PoolAllocator.hh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Memory\StackAllocator.hh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Memory\HeapAllocator.hh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Memory\FreeListAllocator.hh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Memory\KenPoolAllocator.hh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{c1477ed9-644d-497e-aea6-01a1d157ceaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{b9362a0c-c80f-4e83-a9c5-1ad912ec2f7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

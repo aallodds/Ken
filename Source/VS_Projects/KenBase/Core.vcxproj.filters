@@ -3,4 +3,16 @@
   <ItemGroup>
     <ClCompile Include="TemporaryFile.cc" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Ken\Core\Top.hh" />
+    <ClInclude Include="..\..\Ken\Core\Compiler.hh" />
+    <ClInclude Include="..\..\Ken\Core\Platform.hh" />
+    <ClInclude Include="..\..\Ken\Core\Architecture.hh" />
+    <ClInclude Include="..\..\Ken\Core\Targets.hh" />
+    <ClInclude Include="..\..\Ken\Core\SIMD.hh" />
+    <ClInclude Include="..\..\Ken\Core\Build.hh" />
+    <ClInclude Include="..\..\Ken\Core\Types.hh" />
+    <ClInclude Include="..\..\Ken\Core\Macros.hh" />
+    <ClInclude Include="..\..\Ken\Core\UtilityFunctions.hh" />
+  </ItemGroup>
 </Project>

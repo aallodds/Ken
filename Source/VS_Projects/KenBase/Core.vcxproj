@@ -57,8 +57,7 @@
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>
-      </PreprocessorDefinitions>
+      <PreprocessorDefinitions>__KEN_TARGET_WINDOWS_64BIT_MSVC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -67,6 +66,7 @@
       <FloatingPointModel>Fast</FloatingPointModel>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <AdditionalIncludeDirectories>$(KSource);$(KExternal);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(KSource)\Ken\Core\Top.hh;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,8 +79,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>
-      </PreprocessorDefinitions>
+      <PreprocessorDefinitions>__KEN_TARGET_WINDOWS_64BIT_MSVC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -90,6 +89,7 @@
       <FloatingPointModel>Fast</FloatingPointModel>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <AdditionalIncludeDirectories>$(KSource);$(KExternal);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(KSource)\Ken\Core\Top.hh;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -98,6 +98,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="TemporaryFile.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Ken\Core\Architecture.hh" />
+    <ClInclude Include="..\..\Ken\Core\Build.hh" />
+    <ClInclude Include="..\..\Ken\Core\Compiler.hh" />
+    <ClInclude Include="..\..\Ken\Core\Macros.hh" />
+    <ClInclude Include="..\..\Ken\Core\Platform.hh" />
+    <ClInclude Include="..\..\Ken\Core\SIMD.hh" />
+    <ClInclude Include="..\..\Ken\Core\Targets.hh" />
+    <ClInclude Include="..\..\Ken\Core\Top.hh" />
+    <ClInclude Include="..\..\Ken\Core\Types.hh" />
+    <ClInclude Include="..\..\Ken\Core\UtilityFunctions.hh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

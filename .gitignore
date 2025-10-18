@@ -32,7 +32,6 @@
 *.sublime-project
 *.sublime-workspace
 *.vs
-*.vcxproj
 # Don't ignore all .user files, just .vcxproj.user
 # files in-case something is important that uses
 # .user in the near future, who knows?

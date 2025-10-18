@@ -9,3 +9,4 @@ KStaging	U:\AAO\Ken\Intermediate
 KBin		U:\AAO\Ken\Bin
 KLib		U:\AAO\Ken\Lib
 KExternal	U:\AAO\Ken\External
+KPlatform	Win64, MacOS, Linux64

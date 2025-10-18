@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateLibrary", "Template
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateExecutable", "Templates\TemplateExecutable\TemplateExecutable.vcxproj", "{81C5F8A6-E8D7-4C01-8568-404112651302}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KenBase", "KenBase", "{AC94423E-6EC4-4144-9543-A0C217957855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KenFramework", "KenFramework", "{B002D7A7-FC30-4A81-8C79-08C3EF658C3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win64 = Debug|Win64
@@ -24,6 +30,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E46368B6-DB8C-4427-BA8A-D972DCE128A3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{81C5F8A6-E8D7-4C01-8568-404112651302} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28FB92A9-C1DC-4785-AEDB-3748A7A59B51}

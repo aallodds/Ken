@@ -20,6 +20,12 @@
     <ClCompile Include="..\..\Ken\Core\Memory\FreeListAllocator.cc">
       <Filter>Memory</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Utility\Assert.cc">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ken\Core\Utility\Exception.cc">
+      <Filter>Utility</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Ken\Core\Top.hh" />
@@ -49,6 +55,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Ken\Core\Memory\KenPoolAllocator.hh">
       <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Utility\Exception.hh">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ken\Core\Utility\Assert.hh">
+      <Filter>Utility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

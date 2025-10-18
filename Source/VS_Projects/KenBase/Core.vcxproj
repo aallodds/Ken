@@ -103,6 +103,8 @@
     <ClCompile Include="..\..\Ken\Core\Memory\KenPoolAllocator.cc" />
     <ClCompile Include="..\..\Ken\Core\Memory\PoolAllocator.cc" />
     <ClCompile Include="..\..\Ken\Core\Memory\StackAllocator.cc" />
+    <ClCompile Include="..\..\Ken\Core\Utility\Assert.cc" />
+    <ClCompile Include="..\..\Ken\Core\Utility\Exception.cc" />
     <ClCompile Include="TemporaryFile.cc" />
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +124,8 @@
     <ClInclude Include="..\..\Ken\Core\Top.hh" />
     <ClInclude Include="..\..\Ken\Core\Types.hh" />
     <ClInclude Include="..\..\Ken\Core\UtilityFunctions.hh" />
+    <ClInclude Include="..\..\Ken\Core\Utility\Assert.hh" />
+    <ClInclude Include="..\..\Ken\Core\Utility\Exception.hh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,11 @@
+KRoot		U:\AAO\Ken
+KSource		U:\AAO\Ken\Source
+KArt		U:\AAO\Ken\Art
+KAssets		U:\AAO\Ken\Assets
+KAudio		U:\AAO\Ken\Audio
+KConfig		U:\AAO\Ken\Config
+KSaved		U:\AAO\Ken\Saved
+KStaging	U:\AAO\Ken\Intermediate
+KBin		U:\AAO\Ken\Bin
+KLib		U:\AAO\Ken\Lib
+KExternal	U:\AAO\Ken\External
